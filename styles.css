@@ -1,0 +1,83 @@
+/* Navigation Bar */
+.nav-bar {
+    padding: 5px 0px;
+    width: 100%;
+    background-color: antiquewhite;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+    overflow:hidden; 
+}
+
+.nav-bar .icon-main {
+    margin: 16px 16px;
+    float: left;
+    font-size: 20;
+    text-decoration: inherit;
+    color: inherit
+}
+
+.nav-bar .icon {
+    margin: 16px 16px;
+    float: right;
+    font-size: 18;
+    text-decoration: inherit;
+    color: inherit;
+}
+
+/* About */
+.bio {
+    width: 55%;
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+    margin: 15px 10px;
+}
+
+.bio a {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 3;
+}
+
+/* Projects */
+.projects {
+    display: inline-block;
+    width: 80%;
+    min-height: 370px;
+    margin: auto;
+    padding-top: 30px;
+    /* border: 1px solid black; */
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+}
+
+.projects .description {
+    display: table-cell;
+    min-height: 350px;
+    width: 50%;
+    text-align: left;
+    /* border: 1px solid black; */
+}
+
+.projects .description p {
+    padding-top: 0px;
+}
+
+.projects .pictures {
+    display: table-cell;
+    max-width: 48%;
+    min-height: 350px;
+    align-items: center;
+    padding-right: 10px;
+    /* border: 1px solid black; */
+}
+
+.projects .pictures img {
+    display: block;
+    object-fit: cover;
+    width: 620px;
+    max-height: 350px;
+    align-items: center;
+}
