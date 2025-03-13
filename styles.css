@@ -34,12 +34,6 @@
     margin: 15px 10px;
 }
 
-.bio a {
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 3;
-}
-
 /* Projects */
 .projects {
     display: inline-block;
